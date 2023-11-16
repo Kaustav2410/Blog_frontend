@@ -1,0 +1,56 @@
+.post-page{
+   height: max(100vh,100%);
+}
+.image{
+    max-height: 250px;
+    overflow: hidden;
+    display: flex;
+}
+.image img{
+    object-fit: cover;
+    object-position: center center;
+
+}
+a{
+    color:#333;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+div.post-page .info{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin :1rem 0.5rem;
+    font-size: .8rem;
+}
+div.post-page .author{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.content{
+    line-height: 1.6rem;
+}
+.edit_btn{
+    text-decoration: none;
+    background: #333;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #353535;
+    color: white;
+    padding: .6rem 1.5rem;
+    border-radius: .5em;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+a svg{
+    height: 20px;
+    background: #333;
+}
