@@ -16,7 +16,7 @@ export default function PostPage(){
         });
     },[]);
     if(!postInfo) return ('');
-    // console.log(postInfo.coverimage);
+    // console.log(postInfo.author._id);
     return(
         <div className="post-page">
             {

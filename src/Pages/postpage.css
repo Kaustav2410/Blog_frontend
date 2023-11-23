@@ -34,17 +34,12 @@ div.post-page .author{
     line-height: 1.6rem;
 }
 .edit_btn{
-    text-decoration: none;
-    background: #333;
+    background-color: #333;
     color: white;
     margin-bottom: 10px;
-    background-color: #353535;
-    color: white;
     padding: .6rem 1.5rem;
     border-radius: .5em;
     cursor: pointer;
-    position: relative;
-    z-index: 1;
     display: inline-flex;
     align-items:center;
     justify-content: center;
